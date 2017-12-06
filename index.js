@@ -1,5 +1,6 @@
 function theBeatlesPlay (musicians, instruments) {
   var messages;
+  var i;
   for (i= 0; i<musicians.length; i++) {
     messages.push(musicians[i] + " plays " + instruments[i]);
   }
