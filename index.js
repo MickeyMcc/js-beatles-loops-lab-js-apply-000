@@ -6,3 +6,10 @@ function theBeatlesPlay (musicians, instruments) {
   }
   return messages;
 }
+
+function johnLennonFacts (facts) {
+  facts.forEach( funtion (facts) {
+    facts = facts + '!';
+  })
+  return facts;
+}
